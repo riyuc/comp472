@@ -1,0 +1,146 @@
+1. Game parameters:
+a) Timeout: 60 seconds
+b) Maximum turns: 100
+c) Play mode: Player 1 = AI & Player 2 = H
+d) Player 1 (white) uses minimax
+e) Player 1 (white) heuristic: e0
+
+2. Initial configuration of the board:
+5   bK  bQ  bB  bN   .
+4    .   .  bp  bp   .
+3    .   .   .   .   .
+2    .  wp  wp   .   .
+1    .  wN  wB  wQ  wK
+
+     A   B   C   D   E
+
+3. white turn #1
+3.1. Information about the action:
+a) Player: white
+b) Turn #1
+c) Move from C2 to C3
+d) Time for this action: 4.76 sec
+e) Heuristic score: 0
+f) Minimax search score: 2
+g) New board configuration:
+5   bK  bQ  bB  bN   .
+4    .   .  bp  bp   .
+3    .   .  wp   .   .
+2    .  wp   .   .   .
+1    .  wN  wB  wQ  wK
+
+     A   B   C   D   E
+3.2. Cumulative information about the game so far:
+a) Cumulative states explored: 570k
+b) Cumulative states explored by depth: 0=532.5k 1=34.8k 2=2.5k 3=170 4=13
+c) Cumulative % states explored by depth: 0=93.4% 1=6.1% 2=0.4% 3=0.0% 4=0.0%
+d) Average branching factor: 0.1
+
+3. black turn #1
+3.1. Information about the action:
+a) Player: black
+b) Turn #1
+c) Move from D4 to C3
+g) New board configuration:
+5   bK  bQ  bB  bN   .
+4    .   .  bp   .   .
+3    .   .  bp   .   .
+2    .  wp   .   .   .
+1    .  wN  wB  wQ  wK
+
+     A   B   C   D   E
+
+3. white turn #2
+3.1. Information about the action:
+a) Player: white
+b) Turn #2
+c) Move from D1 to D5
+d) Time for this action: 8.10 sec
+e) Heuristic score: 2
+f) Minimax search score: 3
+g) New board configuration:
+5   bK  bQ  bB  wQ   .
+4    .   .  bp   .   .
+3    .   .  bp   .   .
+2    .  wp   .   .   .
+1    .  wN  wB   .  wK
+
+     A   B   C   D   E
+3.2. Cumulative information about the game so far:
+a) Cumulative states explored: 1.5M
+b) Cumulative states explored by depth: 0=1.4M 1=89k 2=6.4k 3=407 4=30
+c) Cumulative % states explored by depth: 0=93.8% 1=5.8% 2=0.4% 3=0.0% 4=0.0%
+d) Average branching factor: 0.1
+
+3. black turn #2
+3.1. Information about the action:
+a) Player: black
+b) Turn #2
+c) Move from C3 to B2
+g) New board configuration:
+5   bK  bQ  bB  wQ   .
+4    .   .  bp   .   .
+3    .   .   .   .   .
+2    .  bp   .   .   .
+1    .  wN  wB   .  wK
+
+     A   B   C   D   E
+
+3. white turn #3
+3.1. Information about the action:
+a) Player: white
+b) Turn #3
+c) Move from C1 to D2
+d) Time for this action: 6.83 sec
+e) Heuristic score: 1
+f) Minimax search score: 5
+g) New board configuration:
+5   bK  bQ  bB  wQ   .
+4    .   .  bp   .   .
+3    .   .   .   .   .
+2    .  bp   .  wB   .
+1    .  wN   .   .  wK
+
+     A   B   C   D   E
+3.2. Cumulative information about the game so far:
+a) Cumulative states explored: 2.4M
+b) Cumulative states explored by depth: 0=2.2M 1=133.1k 2=9.6k 3=591 4=47
+c) Cumulative % states explored by depth: 0=93.9% 1=5.7% 2=0.4% 3=0.0% 4=0.0%
+d) Average branching factor: 0.1
+
+3. black turn #3
+3.1. Information about the action:
+a) Player: black
+b) Turn #3
+c) Move from A5 to A4
+g) New board configuration:
+5    .  bQ  bB  wQ   .
+4   bK   .  bp   .   .
+3    .   .   .   .   .
+2    .  bp   .  wB   .
+1    .  wN   .   .  wK
+
+     A   B   C   D   E
+
+3. white turn #4
+3.1. Information about the action:
+a) Player: white
+b) Turn #4
+c) Move from B1 to C3
+d) Time for this action: 6.06 sec
+e) Heuristic score: 1
+f) Minimax search score: 5
+g) New board configuration:
+5    .  bQ  bB  wQ   .
+4   bK   .  bp   .   .
+3    .   .  wN   .   .
+2    .  bp   .  wB   .
+1    .   .   .   .  wK
+
+     A   B   C   D   E
+3.2. Cumulative information about the game so far:
+a) Cumulative states explored: 3.1M
+b) Cumulative states explored by depth: 0=2.9M 1=172.6k 2=12.6k 3=767 4=62
+c) Cumulative % states explored by depth: 0=94.0% 1=5.6% 2=0.4% 3=0.0% 4=0.0%
+d) Average branching factor: 0.1
+
