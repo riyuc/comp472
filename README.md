@@ -1,4 +1,4 @@
-# Mini Chess Game
+# Mini Chess Game - COMP 472
 
 A small scale chess variant built in Python, featuring both human vs. human play and human vs. AI (or AI vs. AI) matchups.
 
